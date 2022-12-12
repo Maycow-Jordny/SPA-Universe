@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    font-size: 62.5%;
+    --text-color-nav-default: #C4C4CC;
+    --color-primary: #ffffff;
+
+}
+
+body {
+    background-image: url(/images/mountains-universe02.png);
+    font-size: 1.6rem;
+    min-height: 93vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 10.2rem 0rem 0rem 6.2rem;
+    gap: 1.6rem;
+}
+
+
+
+h1 {
+    color: var(--color-primary);
+
+
+}
+
+p {
+    color: var(--color-primary);
+    max-width: 60.8rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+}

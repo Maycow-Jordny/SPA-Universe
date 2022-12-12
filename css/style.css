@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    font-size: 62.5%;
+    --text-color-nav-default: #C4C4CC;
+    --color-primary: #ffffff;
+
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin: 4.0rem 7.2rem;
+    gap: 3.2rem;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    gap: 3.2rem;
+}
+
+header nav a {
+    display: flex;
+    text-decoration: none;
+    color: var(--text-color-nav-default);
+    transition-duration: 300MS;
+
+}
+
+header nav a:hover {
+    font-weight: 700;
+    color: var(--color-primary)
+}
